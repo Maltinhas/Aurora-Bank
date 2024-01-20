@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+:root{
+    --color-green-300: #2d6a4f;
+    --color-black: #000;
+    --color-green-100: #b7e4c7bb;
+    --color-gray-300: rgba(110, 110, 110, 0.89)165, 165, 165;
+    --color-gray-100: #f5f3f4;
+    --color-green200: #3c6e71;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3c6e71;
+    --bs-btn-border-color: #2d6a4f;
+}
+.home{
+    min-height: 50vh;
+}
+.font-one{
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+}
+.font-two{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+}
+.space{
+    letter-spacing: 2px;
+}
+.navcolor{
+    background-color: var(--color-grey);
+}
+.bgcol1{
+    background-color: var(--color-green-200);
+    box-shadow: 3px 3px 15px var(--color-green-200);
+}
+.seemore{
+    background-color: var(--color-gray-100);
+    box-shadow: 0px 5px 5px var(--color-gray-100), 0px -5px 5px var(--color-gray-100)
+}
+.btn-success {
+    color: var(--bs-btn-color);
+    background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-border-color);
+}
+.icon{
+    font-size:10vmin;
+}
+.iconlink{
+    text-decoration: none;
+    color: var(--bs-btn-color);
+}
+.footercolor{
+    background-color: var(--color-black);
+    border-color: var(--bs-btn-color);
+}
+.textfooter{
+    color: var(--bs-btn-color);
+    padding-top: 13px;
+}
